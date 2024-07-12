@@ -20,6 +20,11 @@ export class AppComponent {
     { description: 'laugh', done: false },
   ];
 
+  addItem(description: string) {
+    if (!description) return;
+    this.allItems.unshift({ description, done: false });
+  }
+
   get items() {
     if (this.filter === 'all') {
       return this.allItems;
