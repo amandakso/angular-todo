@@ -8,7 +8,7 @@
     </div>
 
     <!-- This section shows only if user clicks Edit button-->
-    <div #ngIf="editable">
+    <div *ngIf="editable">
         <input class="sm-text-input" placeholder="edit item" [value]="item.description" #editedItem
             (keyup.enter)="saveItem(editedItem.value)" />
         <div class="btn-wrapper">
