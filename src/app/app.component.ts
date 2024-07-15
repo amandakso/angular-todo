@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Item } from './item';
+import { ItemComponent } from './item/item.component';
 
 @Component({
   selector: 'app-root',
@@ -32,5 +34,9 @@ export class AppComponent {
     return this.allItems.filter((item) =>
       this.filter == 'done' ? item.done : !item.done
     );
+  }
+
+  remove(item: Item) {
+    this.allItems.splice(this.allItems.indexOf(item, 1));
   }
 }
