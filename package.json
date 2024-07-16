@@ -1,7 +1,7 @@
 {
   "name": "todo",
   "version": "0.0.0",
-  "homepage": "https://amandakso.github.io/",
+  "homepage": "https://amandakso.github.io/angular-todo",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^18.0.0",
     "@angular/common": "^18.0.0",
