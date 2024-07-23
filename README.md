@@ -2,9 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
 
-Tutorial: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started
+## Description
+
+A todo app built with Angular. Features include add/edit/delete todo items as well as checkmark completed tasks.
 
 [Live Demo](https://amandakso.github.io/angular-todo/)
+
+## Resources
+
+Tutorial: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started
 
 ## Development server
 
